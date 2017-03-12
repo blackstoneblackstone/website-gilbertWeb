@@ -16,17 +16,39 @@
 	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery.onepage-scroll.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="icon" href="img/favicon.gif" type="image/gif" >
+	<link rel="icon" href="img/favicon.gif" type="image/gif">
+	<style>
+
+     
+		.page1 img {
+			height: 350px;
+			width: auto;
+			margin-left: 50px;
+		}
+
+		.page2 img {
+			height: 350px;
+			width: auto;
+		}
+
+		.color-text {
+			width: 300px;
+			margin: 40px auto 20px auto;
+			color:#fe151a;
+			height: 60px;
+		}
+	</style>
 </head>
 
 <body>
 <nav class="navbar">
 	<div class="logo">
-		<img src="img/logo.png">
+		<img src="img/logo.png" class="animated swing infinite slow">
 	</div>
 	<div class="nav-text">
-		<a href="index.html"><span>产品亮点</span></a>
+		<a href="index.html"><span>Gilbert-S系列</span></a>
 		<a href="details.html"><span>产品细节</span></a>
 		<a href="install.html"><span>安装方法</span></a>
 		<a href="color.html"><span class="active">产品颜色</span></a>
@@ -36,17 +58,24 @@
 </nav>
 <div class="content">
 	<div class="page page1">
-		<img src="img/c1.png">
+		<div class="color-text animated fadeInDown"><h1>Gilbert-S1</h1></div>
+		<div>
+			<img src="img/t1.jpg" class="animated fadeInLeft">
+			<img src="img/t2.jpg" class="animated fadeInRight">
+			<img src="img/t3.jpg" class="animated fadeInLeft">
+			<img src="img/t4.jpg" class="animated fadeInRight">
+		</div>
 	</div>
 	<div class="page page2">
-		<img src="img/c2.png">
+		<div class="color-text"><h1>Gilbert-S2</h1></div>
+		<div>
+			<img src="img/c1.jpg">
+			<img src="img/c2.jpg">
+			<img src="img/c3.jpg">
+			<img src="img/c4.jpg">
+		</div>
 	</div>
-	<div class="page page3">
-		<img src="img/c3.png">
-	</div>
-	<div class="page page4">
-		<img src="img/c4.png">
-	</div>
+
 </div>
 <div class="footer">
 </div>
